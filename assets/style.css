@@ -1,0 +1,33 @@
+@font-face {
+    font-family: univers;
+    src: url(font/UniversLTStd.otf);
+}
+
+body {
+	font-family: univers, helvetica, sans-serif;
+	font-size: 11px;
+	background-image: url(beelden/03/05021601.TIF);
+	background-size: 1000px;
+	background-repeat: repeat-y;
+	background-position: center center center center;
+}
+
+#nav{
+	margin-left: 25px;
+	margin-top: 0px;
+}
+
+#nav a {
+	color: black;
+	text-decoration: none;
+}
+
+#nav a:hover, a:active{
+	font-style: oblique;
+}
+
+#content {
+	float: right;
+	width: 370px;
+	margin-right: 25px;
+}
